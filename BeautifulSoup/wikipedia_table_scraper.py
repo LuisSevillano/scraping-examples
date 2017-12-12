@@ -13,7 +13,7 @@ def clean_text(text):
 
 
 
-url = "https://es.wikipedia.org/wiki/Anexo:Indicadores_de_las_cityes_de_Am%C3%A9rica_Latina"
+url = "https://es.wikipedia.org/wiki/Anexo:Indicadores_de_las_ciudades_de_Am%C3%A9rica_Latina"
 resp = requests.get(url)
 
 soup = BeautifulSoup(resp.content, 'lxml')
