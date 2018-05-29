@@ -20,7 +20,7 @@ soup = BeautifulSoup(resp.content, 'lxml')
 
 table = soup.find('table', attrs = {'class': 'sortable wikitable'})
 
-filename = "cities-per-PIB" + ".csv"
+filename = "cities-by-GDP" + ".csv"
 ficherocsv = open(filename, "ab")
 writer = unicodecsv.writer(ficherocsv)
 
